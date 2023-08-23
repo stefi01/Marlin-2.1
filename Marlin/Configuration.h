@@ -1227,7 +1227,7 @@
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
 <<<<<<< Updated upstream
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.2, 79.9, 416.25, 95 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80.1, 79.9, 415.00, 95 }
 =======
 #define DEFAULT_AXIS_STEPS_PER_UNIT   {80.2, 79.9, 414, 95  }
 >>>>>>> Stashed changes
