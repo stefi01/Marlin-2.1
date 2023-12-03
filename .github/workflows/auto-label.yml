@@ -4,6 +4,8 @@
 # - Apply the label "Bug: Potential ?" to these issues.
 #
 
+name: Label Old Bugs
+
 on:
   schedule:
   - cron: "30 8 * * *"
@@ -15,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Auto Label for [BUG]
-      uses: actions/github-script@v5
+      uses: actions/github-script@v7
       with:
         script: |
           # Get all open issues in this repository
